@@ -1,0 +1,5 @@
+camunda:
+  variable-injector:
+    strategy:
+      OrderHandlingProcess:
+        order: orderInjector

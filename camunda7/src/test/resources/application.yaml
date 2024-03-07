@@ -1,0 +1,11 @@
+camunda:
+  variable-injector:
+    strategy:
+      OrderHandlingProcess:
+        order: orderInjector
+  bpm:
+    client:
+      base-url: http://localhost:8080/engine-rest
+spring:
+  main:
+    allow-bean-definition-overriding: true
